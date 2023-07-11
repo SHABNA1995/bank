@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-section">
+     
+    <!-- <div class="container"> -->
+        <div class="row">
+            <div class="col-lg-4 col-md-4 " id="div1">
+                <div>
+                  
+                    <button type="button" class="btn btn-primary mt-3 mx-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        View Profile<i class="fa-solid fa-user fa-beat fa-xl text-warning mx-3 "></i>
+                      </button>
+                </div>
+                <div>
+                    <button data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" type="button" class="btn btn-primary mt-3"><strong>Balance Enquiry<i
+                                class="fa-solid fa-sack-dollar fa-beat fa-xl text-warning mx-3"></i></strong></button>
+                </div>
+                <div>
+                    <button data-bs-toggle="modal" data-bs-target="#exampleModal1" type="button" class="btn btn-primary mt-3"><strong>Money Transfer <i
+                                class="fa-solid fa-money-bill-transfer fa-beat fa-xl text-warning mx-3"></i></strong></button>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-primary mt-3"><strong>Account Statement <i
+                                class="fa-solid fa-table-list fa-beat fa-xl text-warning mx-3"></i></strong></button>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-primary mt-3"><strong>LogOut</strong><i
+                            class="fa-solid fa-right-from-bracket fa-beat fa-xl text-warning mx-3"></i></button>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-primary mt-3"><strong>Delete Account</strong><i
+                            class="fa-solid fa-trash fa-beat fa-xl mx-3 text-warning"></i></button>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-primary mt-3"><i
+                            class="fa-solid fa-hand-holding-dollar fa-beat fa-2xl text-warning mx-3 "></i></button>
+                </div>
+                
+
+
+
+            </div>
+            <div class="col-lg-8 col-md-8  mt-5 mb-3" id="div2">
+
+                <div class="mt-3  d-flex ">
+                    <h3>ENJOY NET BANKING WITH<strong class="text-success"> SBI</strong> </h3><br>
+
+
+
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus earum at, cumque laboriosam alias
+                        omnis asperiores et reprehenderit culpa labore impedit modi rem ex, eaque accusamus possimus,
+                        eligendi ipsam. Quidem.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+  
+  
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+       <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+
+          <h5 class="modal-title text-primary  text-white " id="exampleModalLabel"><b>Profile Details</b></h5>
+ 
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="modal" aria-label="Close"></button>
+
+
+           
+        </div>
+
+        <div class="modal-body">
+        <div class="text-center">
+            <img class="w-50" style="height:200px;" src="https://i.postimg.cc/tg26tHdZ/user.png">
+        </div>
+        <div class="mt-5">
+            <h4>user Name:</h4>
+            <h4>Account Number:</h4>
+
+        </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary w-50" data-dismiss="modal">Save Changes</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header bg-primary text-white">
+
+      <h5 class="offcanvas-title text-primary  text-white" id="exampleModalLabel"><b>Profile Details</b></h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <img style="height:200px;" src="https://i.postimg.cc/JnmWYhHh/money.jpg">
+     <p class="mt-3" > Hi "username"<br><h5 class="text-primary mt-3">Your balance is : Rs.54000</h5>
+    </p>
+      <div>
+
+      </div>
+      
+    </div>
+  </div>
+  <!-- </div> -->
+  
+
+  <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-center">
+          <h5 class="modal-title text-primary  text-white " id="exampleModalLabel"><b>Money Transfer</b></h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+          <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"> -->
+            <!-- <span aria-hidden="true">&times;</span>
+          </button> -->
+        </div>
+        <div class="modal-body">
+          <img class="mt-2" style="height:200px;"   src="https://i.postimg.cc/L4k77wJs/new.jpg">
+            <form action="">
+          <input type="text" id="acno" class="form-control mt-3" name="account" placeholder=" Account number">
+          <input type="text" id="tracno" class="form-control mt-3" name="transfer" placeholder="Account to transfer">
+          <input type="text"  id="pswd" class="form-control mt-3" name="password" placeholder="Password">
+          <button type="button" class=" form-control btn btn-primary w-75 mt-4">Proceed</button>
+          </form>
+
+
+        </div>
+        <!-- <div class="modal-footer"> -->
+          <!-- <button type="button" class="btn btn-secondary w-25" data-dismiss="modal">Close</button> -->
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        <!-- </div> -->
+      </div>
+    </div>
+  </div>
+    </body>
+    </html>
+    
+    

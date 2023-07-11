@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+#d{
+    transition: .5s ease-in-out;
+}
+#d:hover{
+    transform: scale(1.06);
+}
+#d1{
+    transition: .5s ease-in-out;
+}
+#d1:hover{
+    transform: scale(1.06);
+}
