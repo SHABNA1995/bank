@@ -15,7 +15,7 @@ button{
     /* margin-top: 0px; */
     /* padding: 0px; */
 }
-#div2{
-     /* background-color: rgb(102, 156, 221); */
-
+button:hover{
+    background-color: aliceblue;
+    color:black;
 }
